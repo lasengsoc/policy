@@ -1,0 +1,202 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Finance Policy}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Section\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Finance Policy} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Finance Policy
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: TBD
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding the Finance Policy, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{Preamble}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start1=0)
+\begin{easylist}
+The purpose of the Lassonde Engineering Society Finance Policy is to formalize procedures to fulfil all LES activities in the most effective and efficient manner and to remain accountable to the Members of the Society. The LES commits to providing accurate and complete financial reports for internal and external use by the Executive Committee, Board of Directors, and all other interested parties.
+\end{easylist}
+
+\section{Authority}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& Oversight by the Board of Directors
+	&&& The Board of Directors is responsible for accrediting all Society financial activities.
+	&&& The Finance Committee is authorized to act on the Board’s behalf pursuant of Section 4.3.4 of the Finance Policy on financial matters when action is required in advance of a meeting of the Board of Directors.
+	&&& The Board of Directors is responsible for the enforcing Bylaw 4 provisions for this committee.
+&& Oversight by the Finance Committee
+	&&& The Finance Committee is responsible for overseeing the business described in this policy. The ultimate responsibility for the implementation of these policies will rest with the Vice-President Finance. 
+    &&& The Finance Committee shall meet at least once a month to conduct their business as outlined in this Policy.
+    &&& There shall be a Finance Secretary who shall be responsible for recording all decisions and recommendations made at the Finance Committee meetings, including justification for these decisions and recommendations.
+    &&& The Board of Directors is required to review and approve the minutes for each Finance Committee meeting for the decisions therein to be effective, pursuant to Bylaw 1, Article 6, Section 6.13.2 and 6.13.11
+
+\end{easylist}
+
+\section{Budget and Appropriations}
+\begin{easylist}
+\ListProperties(Start3=0)
+&& General
+	&&& The Finance Committee shall assist the Vice President Finance in the creation of the Engineering Society operating budgets as described in Bylaw 2, listed below:
+		&&&& A Summer Budget presenting a general overview of the planned financial priorities which shall be presented at the July Board meeting;
+        &&&& A Fall Budget containing detailed projections of planned revenues and expenditures which shall be presented at the September Board meeting, and;
+        &&&& A Winter Budget derived from the Fall Budget including revisions based on actual revenues and expenditures which shall be presented at the January Board meeting.
+    &&& The Engineering Society operating budget must include provisions for mandatory expenditures outlined in section 3.3
+&&  Appropriations Process
+	&&& After the May Board of Directors Meeting, the Vice-President Finance will request budgets from each Officer, Standing Committee and Associated Entities of the Society. Budgets should be returned no later than June of the term, at which point the Finance Committee will review them at the Finance Committee Summer Budget Meeting(s), following procedure as described in Section 3.2.
+        &&&& The Summer Budget shall be established no later than the July Board of Directors Meeting 
+    &&& There shall be a call for amendments given two (2) weeks prior to the Finance Committee Fall and Winter Budget Meeting(s), following procedure as described in Section 3.2.
+        &&&& The Fall Budget shall be established no later than September Board of Directors meeting.
+		&&&& The Winter Budget shall be established no later than the January Board of Directors Meeting.
+&& Mandatory Appropriations
+	&&& The purpose of mandatory expenditures are to create a consistent Society budget that supports the operational health of the Society, as well as provide financial support to club and community initiatives.
+    &&& The following funds are to be created in the budget:
+        &&&& An Operations Fund to support the Society’s day to day operations administrative and accessibility costs. The Fund may also be used to buy equipment and services to fund operations, training and other initiatives set forth by the Board of Directors;
+        &&&& A Clubs and Teams Fund to support Affiliated Clubs and other clubs deemed eligible by the Finance Committee set at minimum 10\% of expenditures;
+		&&&& A Student Initiatives Fund will be created to support other community special projects and initiatives, not including affiliated organizations or associated entities, set at 10\% of all levy revenue.
+        &&&& A Transition Fund to support transition of the Society, set at 15\% of expenditures; and 
+        &&&& A Budget Contingency to act as the rainy-day fund or extenuating financial circumstances, set at 5\% of expenditures.
+    &&& All funds and savings must be held in CDIC (Canadian Deposit Insurance Corporation) protected accounts.
+\end{easylist}
+
+\section{Requests for Funding and Re-appropriations}
+\begin{easylist}
+\ListProperties(Start4=0)
+&& Requests for Funding
+    &&& The Society allocates funding to the student body by supporting affiliated clubs, subsidizing activity fees and funding special projects. This section outlines the minimum requirements for an application. All other requirements will be determined by the Finance Committee.
+	&&& Requests for funding from the Engineering Society, Associated Entities, Affiliated Clubs, and Membership shall be addressed to the Vice President Finance and/or the Finance Secretary. The requests should be delivered to the Society Office, or by email to finance@lasengsoc.com.
+    &&& Funding requests should consist of a letter that states the amount, purpose of the request, budget line (fund name) and name and contact information of the person or organization requesting funds. Any other additional information that the Finance Committee requests should be included in the cover letter. The cover letter should also explain how granting the requested funds would improve the student experience for members of the Society.
+    &&& All requests must include a complete budget. The budget shall include:
+        &&&& All projected sources of income and expenses;
+        &&&& A contingency; and
+        &&&& Comments describing each line item.
+    &&& Requests for funding that are submitted by organizations that do not have Affiliated Club status will be required to submit a listing of their membership along with indication of who in their membership is a Member of the Society (i.e, a full-time undergraduate student enrolled in a BEng program, or a student registered in a BEng program on co-op).
+    &&& Funding requests for affiliated clubs shall follow the processes outlined in Bylaw 6, Chapter 4
+&& Re-Appropriations
+    &&& The Society from time to time may determine to amend its approved budget. This section outlines the minimum requirements for a re-appropriation request. All other requirements will be determined by the Finance Committee.
+    &&& Re-appropriation requests from the Engineering Society, Associated Entities, Affiliated Clubs, and Membership shall be addressed to the Vice President Finance and/or the Finance Secretary. The requests should be delivered to the Society Office, or by email to \newline finance@lasengsoc.com.
+    &&& Re-appropriation requests should consist of a letter that summarizes the re-appropriation, purpose of the request and name and contact information of the person or organization requesting funds. Any other additional information that the Finance Committee requests should be included in the cover letter. The cover letter should also explain how granting the requested funds would improve the student experience for members of the Society.
+    &&& All requests must include a complete amendment proposal. The proposal shall include:
+        &&&& Proposed budget line reallocation(s)
+        &&&& Calculated net transfer(s)
+        &&&& Comments describing each line.
+&& Finance Committee Responsibility Regarding Funding Requests and Re-Appropriations
+    &&& Requests for funding and re-appropriations will be presented to the Finance Committee by the Vice President Finance upon receipt
+    &&& The Finance Committee will be responsible for reviewing funding requests and re-appropriat- \newline 
+    ions, ensuring they are reasonable and complete.
+    &&& The Finance Committee will be responsible for gathering any necessary information about the request from the group or individual making the request.
+    &&& The Finance Committee must either come to a decision regarding the amount of funding or re-appropriation allocated for each request or make a recommendation to either the Officers of the Society or to the Board of Directors. Recommendations may be handled either way at the Committee’s discretion; however, they must follow these guidelines:
+        &&&& Requests that the Committee deems unusual or controversial should be referred to the Board;
+        &&&& Requests for conference funding, student initiatives funding, or affiliated clubs funding shall be decided by the Finance Committee;
+        &&&& All other requests for funding or re-appropriations greater than \$999.99 shall be referred to the Board with a Finance Committee recommendation
+&& Appeals
+    &&& All appeals for funding amounts shall be emailed to the Vice President Finance and to the Finance Secretary.
+    &&& All appeals must include the following:
+        &&&& A cover letter describing the reasons for appeal and the amount appealed;
+        &&&& An updated budget;
+        &&&& Any additional supporting documentation that would help the Finance Committee process the appeal (new support evidence, additional costs, etc.); and
+        &&&& A pitch presented from the appealing requester regarding the aforementioned.
+    &&& The Finance Committee shall be responsible for reviewing each appeal and deciding on the amount allocated
+    &&& If the club or individual is still unsatisfied with the result of the appeal, they may submit their appeal as a motion to the Speaker of the Board of Directors (speaker@lasengsoc.com).
+\end{easylist}
+\clearpage
+
+\section{Reporting and Reimbursement}
+\begin{easylist}
+\ListProperties(Start5=0)
+&& Reporting
+    &&& Organizations and clubs (hereafter referred to as Clubs) that receive funding from the Society will be expected to keep complete financial records of all money they receive from all sources and spend on any expense.
+    &&& The Finance Committee will examine the financial records it receives to ensure that they appear correct and complete.
+    &&& The Finance Committee must review the finances of the Society annually through an audit.
+        &&&& The financial review from a professional accounting firm must be approved by the Board of Directors.
+        &&&& A report must be drawn up by the financial reviewer to be included in the end of year financial report.
+        &&&& The salary of the financial reviewer will be determined by the Board of Directors
+    &&& The Finance Committee will keep the financial records it receives on file for future examination by the Clubs, Society Members, and the Lassonde School of Engineering.
+    &&& Before the April Board Meeting each year, the Finance Committee will produce an end of year financial report. This report will include:
+        &&&& A final copy of the Society budget with actual expenditures;
+        &&&& A summary of all funding requests that were examined by the Finance Committee that academic year;
+        &&&& A summary of the findings the Finance Committee made while examining the financial records of the Clubs it funded during the fiscal year; and
+        &&&& A report from the auditor.
+    &&& The Vice-President Finance shall ensure that the following information is made available on the Society’s website, in a timely fashion after approval:
+        &&&& The amount of any funding allocation made to an affiliated club or external organization;
+        &&&& The amount of each allocation from the Club Fund;
+        &&&& The amount of each allocation from the Special Projects Fund;
+        &&&& The detailed budget of each Officer;
+        &&&& The detailed budget of each internal Director of the Society; and
+        &&&& The amount of any other special funding allocation.
+&& Reimbursement
+    &&& All requests for reimbursement shall use a cheque requisition form provided by the Society. This form can be found in the Society office or on the Society website. Delivery should be made to the Society office or emailed to finance@lasengsoc.com. Each form must have the following items completed:
+        &&&& The name of the person to be reimbursed and email;
+        &&&& The name of the budget line it is coming from (e.g Leather Jackets);
+        &&&& A description of what was purchased;
+        &&&& Original purchase receipts for each item; and
+        &&&& The signature of the committee chair responsible for the budget line.
+    &&& Each Officer shall be responsible for ensuring that all cheque requisition forms submitted by committees in which they oversee (as defined in Bylaws) are complete. They shall also be responsible for ensuring that all expenses by those committees are related to their operations.
+    &&& The Vice President Finance shall be responsible for ensuring that all requests include sufficient documentation, are for the correct amount and are in general accordance with the funding request presented to the Finance Committee.
+\end{easylist}
+\clearpage
+
+\end{document}
