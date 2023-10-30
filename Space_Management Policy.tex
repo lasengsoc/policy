@@ -1,0 +1,153 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Space Management Policy}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Section\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Space Management Policy} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Space Management Policy
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: TBD
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding the Space Management Policy, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{Preamble}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start1=0)
+\begin{easylist}
+The purpose of the Lassonde Engineering Society Space Management Policy is to formalize procedures to keep LES space organized and safe. By adhering the outlined procedure, the Society seeks to prevent space-related incidents from occurring.
+\end{easylist}
+
+\section{General}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& Definitions
+    &&& In this document:
+        &&&& The Lassonde Engineering Society shall be referred to as “LES”;
+        &&&& The Student Welcome and Support Centre shall be referred to as “SWSC”;
+        &&&& The Board of Directors shall be referred to as “BOD”. 
+&& Oversight 
+    &&& The Vice President Finance is responsible for the management of space as per Bylaw 1, Article 5 Section 5.3.6.
+&& Interpretation
+    &&& All other LES policies shall have precedence over this policy.
+    &&& As per Bylaw 1, all LES Bylaws shall have precedence over this policy.
+\end{easylist}
+
+\section{Access Keys}
+\begin{easylist}
+\ListProperties(Start3=0)
+&& Office Access
+	&&& The President shall be responsible for keeping the office key for the duration of their term. 
+	&&& All Officers, Chairs and Program Representatives shall have access to the office access code. 
+    &&& All parties listed in section 2.1.2 shall be not share the access code.
+&& Storage Access
+    &&& The Events Chair, YEC Chair and all Officers shall have access to the storage code.
+    &&& All parties listed in section 2.2.1 shall be forbidden from sharing the access code with others.
+&& Access Transition
+    &&& During LES' transition month:
+        &&&& The outgoing President shall request an access code reset from SWSC.
+        &&&& The incoming President shall receive the office key code.
+    &&& The President shall be responsible for disseminating access codes as per sections 2.1 and 2.2.
+    &&& If the President resigns during their term, the office key shall be transferred using the criteria in Bylaw 1, Article 5 Section 5.1.3 until a new President is elected as per Bylaw 5. 
+\end{easylist}
+
+\section{Office Space}
+\begin{easylist}
+\ListProperties(Start4=0)
+&& General 
+    &&& All Officers, Representatives, Directors and At-Large members of the society shall be permitted to use LES’s office space. 
+&& Use of Office
+    &&& The LES Office shall primarily be used for LES-related work. 
+    &&& The LES Office may be used for personal use by the individuals outlined in section 4.1 provided that:
+        &&&& No LES-related work is ongoing or set to occur within the office for the requested time;
+        &&&& The requester of the space notifies the Vice President Finance at least 12 hours prior to the desired reservation; and
+        &&&& The office door remains open. 
+&& Food and Drink
+    &&& With the exception of water, all food and drink items must remain sealed when in the office. 
+&& Office Computer
+    &&& Office Computer use shall follow the provisions in section 4.2.
+    &&& All individuals who are permitted to use the office are permitted to use the desktop.
+    &&& In the interest of preventing security breaches, the desktop shall be solely used for organizational work or school work. 
+        &&&& Organizational work shall take precedence over school work.
+&& Personal Storage
+    &&& All individuals in section 4.1.1 are permitted to store personal belongings in the office with the permission of the Vice President Finance under the following conditions:
+        &&&& The storage does not significantly interfere with the operations of the office; and
+        &&&& Personal belongings must be retrieved within ten (10) days of placement. 
+            &&&&& The Vice President Finance is permitted to remove belongings from the office if the objects are not retrieved within the given period in section 4.5.1.(b).
+\end{easylist}
+
+\section{Storage Space}
+\begin{easylist}
+\ListProperties(Start5=0)
+&& Storing Items
+    &&& Storage space shall be used to store LES property not intended to be stored within the office.
+    &&& The Vice President Finance shall be responsible for the management of storage space and items within storage.
+&& Disposal of Items
+    &&& The Vice President Finance shall confer with members of LES prior to the disposal of storage items to confirm that they are not needed.
+\end{easylist}
+
+\clearpage
+\end{document}
