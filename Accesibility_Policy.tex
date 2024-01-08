@@ -1,0 +1,222 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Complaints Policy}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Section\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Accessibility Policy} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Accessibility Policy
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: November 16, 2023
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding the Accessibility Policy, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering and references.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\hypersetup{urlcolor=cyan}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start1=0)
+\begin{easylist}
+&& Purpose
+    &&& The purpose of the Lassonde Engineering Society Accessibility Policy is to to accommodate accessibility needs as best as possible and to outline a process to report necessary accessibility improvements to the Lassonde School of Engineering.
+&& Definitions
+    &&& In this document:
+        &&&& The Canada Revenue Agency shall be referred to as "CRA";
+        &&&& Rooming provided inclusive with the conference delegate fee shall be referred to as "Accommodation";
+        &&&& A cultural or religious diet, food allergy, intolerance, or other medical need, vegetarian or vegan diet shall be referred to as "Dietary Restriction".
+&& Training
+    &&& The Officers, the EDI Chair and the Ombudsperson must undergo accessibility training during their term of office before the November month of their term provided by York University and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
+    &&& The training must be recognized by the university or use materials which can be found on the Accessibility for Ontario Disability Act (AODA) Office \href{https://www.aoda.ca/}{website}.
+\end{easylist}
+
+\section{Communications}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& Online
+    &&& For all online content deployed by the Engineering Society, its affiliated clubs, and its associated entities, the content and its delivery should abide by the following guidelines from the \href{https://www.aoda.ca/}{AODA}. as closely as possible:
+        &&&& Have accessible templating and follow a consistent format.
+        &&&& Have searchable posts or an index to refer to.
+        &&&& Have the ability to be exported to other formats (e.g. .txt format).
+        &&&& Be compatible with all browsers and devices.
+        &&&& Have annotations for non-text media.
+        &&&& Follow basic accessible design as outlined in the Section X - Print and Publications.
+    &&& For video media, the Society should abide by the Described and Captioned Media Program (DCMP) captioning guidelines as follows:
+        &&&& For all videos, captions appear on-screen long enough to be read.
+        &&&& On-screen captions are limited to no more than two lines.
+        &&&& Captions shown are synchronized with spoken words.
+        &&&& For all captions, speakers should be identified when more than one person is on-screen or when the speaker is not visible.
+        &&&& Captions should use punctuation to clarify meaning.
+        &&&& For all captions, spelling must be correct throughout the production.
+        &&&& All sound effects should be written when they add to understanding.
+        &&&& All actual words should be captioned, regardless of language or dialect.
+        &&&& The use of slang and accent is preserved and identified in captions.
+&& Print and Publications
+    &&& All society prints and publications, as well as print and publications of associated entities, shall adhere to the following guidelines, source from the Ontario’s Universities Accessible Campus \href{https://accessiblecampus.ca/reference-library/accessible-digital-documents-websites/clear-print-guidelines/}{Clear Print Guidelines}:
+        &&&& Contrast: Text should use high-contrast colours for text and background (e.g. Good examples are black or dark blue text on a white or yellow background, or white or yellow text on a black or dark blue background).
+        &&&& Type Colour: Printed material is most readable in black and white. Restrict coloured text to things such as titles, headlines or highlighted material.
+        &&&& Point Size: Text should be kept large between 12 and 18 points, (depending on the font, point size varies among fonts).
+        &&&& Leading: Leading is the space between lines of text and should be at least 25 to 30 per cent greater than the point size.
+        &&&& Font Family and font size: Text should be provided in standard sans serif fonts with easily recognizable upper- and lower-case characters (e.g. Arial, Verdana)
+        &&&& Font Heaviness: Chosen fonts should have medium heaviness not be light type with thin strokes. When emphasizing a word or passage, text should be bolded or in heavy font.
+        &&&& Letter Spacing: Text should have a wide space between letters. When possible, use default space settings.
+        &&&& Margins and Columns: Text should be separated into columns to make it easier to read. Use wide binding margins or spiral bindings if possible. All prints and publications should be on flat pages to work best with vision aids (like magnifiers).
+        &&&& Paper Finish: Prints and publications should use a matte or non-glossy finish to minimize glare. Prints and publications should also avoid using watermarks or complicated background designs.
+        &&&& Clean Design and Simplicity: Print and publications should use distinctive colours, sizes, and shapes on the covers of materials to make them easier to distinguish.
+        &&&& Alternative formats: Prints and publications should, to the best of their ability, provide the same material and content in electronic formats or offer to provide materials in alternative formats when requested.
+\end{easylist}
+
+\section{Events}
+\begin{easylist}
+\ListProperties(Start3=0)
+&& General
+    &&& All events run by the Engineering Society, and its associated entities will strive to abide by the following guidelines when running events.
+&& Meetings
+    &&& For all open meetings and events (e.g. General Meetings, town halls) of the Society or associated entities:
+        &&&& There should be a method of contact for attendees to request accessibility accommodation.
+        &&&& The organizing entity must, to the best of their ability, provide such accommodation.
+        &&&& If the location or event has limits (physical or financial) that impede the implementation of such accessibility accommodation, the organizing entity must, to the best of their ability, provide other means of accessing the content presented in the event (e.g. provide online conferencing options).
+    &&& For meetings and events that require attendance from certain individuals (e.g. All Candidates Meetings, Board of Directors Meetings):
+        &&&& They should abide by all guidelines set forth in Section 3.2.1 above.
+        &&&& If the event cannot provide accessibility accommodation, the attendance of affected individuals should be excused.
+&& Recruitment and Election Processes
+    &&& For recruitment processes or election processes run by the Society or its associated entities, the organizing entity must provide proper accommodation for any candidate throughout the process.
+    &&& If accommodation cannot be made for a candidate, they should be excused from that portion of the recruitment or election process with no negative effect on their candidacy.
+&& Service Animals
+    &&& All Society events, as well as events of  associated entities shall adhere to York University’s guidelines on service animals and support resources:
+        &&&& Service animals are welcome at the University to accompany persons with disabilities who may require assistance.
+        &&&& Working animals must be readily identifiable through visual indicators and must accompany their owner and be kept with their owner at all times.
+        &&&& A requirement for a service animal may also be confirmed by a regulated health professional.
+\end{easylist}
+
+\section{Finance}
+\begin{easylist}
+\ListProperties(Start4=0)
+&& General 
+    &&& All events run by the Society, and its associated entities will abide by the following financial guidelines, to ensure financial accessibility of activities.
+    &&& Within this Section, 4.2 and 4.3 shall be administered by the External Committee.
+&& External Conference Fees
+    &&& The Society shall charge a fee on its members to participate in external conferences, as well as from time to time, reimburse participants on personal incurred costs.
+        &&&& The fees that the Society charge its membership on external conferences shall cover the following:
+            &&&&& Food;
+            &&&&& Accommodation; and
+            &&&&& Travel (where applicable);
+        &&&& Costs incurred by the participant regarding Section 4.2.1.(a)(i) and 4.2.1.(a)(ii) other than what is provided by the conference shall not be eligible for reimbursement.
+            &&&&& If the participant claims inadequate accommodation due to a dietary restriction, the Society may reimburse said participant based on the most current total allowance set by the \href{https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/travel-directive/travel-directive-appendix.html#toc1}{CRA Directive on Travel - Appendix B}.
+        &&&& Personal travel costs by car shall be reimbursed at a rate based on the most current kilometric rate set by the \href{https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/travel-directive/travel-directive-appendix.html#toc1}{CRA Directive on Travel - Appendix A}.
+    &&& The Society shall administer the following pricing model for external conferences:
+        &&&& For conferences that are 3 nights or less, within the province of Ontario, the fee on the participant shall be set to \$150 or less.
+        &&&& For conferences that are 3 nights or less, outside the province of Ontario, the fee on the participant shall be set to \$250 or less.
+        &&&& For conferences that are 4 nights or more, outside the province of Ontario, the fee on the participant shall be set to \$350 or less
+    &&& The Society from time to time, when requested by the participant may split the conference fee into installments.
+        &&&& The fee shall be paid in full in no more than two (2) installments.
+        &&&& The amounts of the installments will be set by the External Committee no later than twenty eight (28) days before the first day of a conference.
+            &&&&& At least forty percent (40\%) of the fee shall be paid in the first installment.
+        &&&& If the fee is not paid in full seven (7) days after the last day of a conference, the participant in question will be barred from attending conferences for a period of two years.
+            &&&&& The External Committee may decide upon request to lengthen the repayment date up to twelve (12) days after the last day of a conference.
+    &&& As of 2023, the pricing model outlined in Section 4.2.2 shall increase every year thereafter based on the Canadian Price Index (CPI)
+    
+\newpage
+
+&& Engineering Competitions Fees
+    &&& The Society shall charge a fee on its members to participate in engineering competitions, as well as from time to time, reimburse participants on personal incurred cost.
+    &&& Section 4.2.1 and its provisions shall apply to engineering competitions.
+        &&&& Section 4.2.1 shall not apply to the York Engineering Competition.
+    &&& Section 4.2.3 and its provisions shall apply to engineering competitions
+        &&&& Section 4.2.3 shall not apply to the York Engineering Competition.
+    &&& The Society shall administer the following pricing model for engineering competitions:
+        &&&& For the York Engineering Competition, the fee on the participant shall be set to \$15 or less,
+        &&&& For the Ontario Engineering Competition, the fee on the participant shall be set to \$100 or less,
+        &&&& For the Canadian Engineering Competition, hosted within the province of Ontario, the fee on the participant shall be set to \$150 or less.
+        &&&& For the Canadian Engineering Competition, hosted outside the province of Ontario, the fee on the participant shall be set to \$250 or less.
+    &&& As of 2023, the pricing model outlined in Section 4.3.3 shall increase every year thereafter based on the Canadian Price Index (CPI)
+&& Events
+    &&& The Society shall strive to ensure that events that come with an associated cost is affordable and within the financial means of the general membership.
+\end{easylist}
+
+\section{Reporting}
+\begin{easylist}
+\ListProperties(Start5=0)
+&& Process
+    &&& If a member finds that there is a need for improvement in accessibility services within the Lassonde School of Engineering or York University, they may report the issue to the Vice-President Student Life.
+        &&&& When there is an issue raised to the Vice-President Student-Life, the Vice-President Student Life must notify the EDI Chair and work to solve the issue. Possible actions that can be taken are listed below:
+            &&&&& Resolve the problem internally within the Engineering Society;
+            &&&&& Resolve the problem using Engineering Society funds; or
+            &&&&& Report the issue to Accessibility Services in the Student Welcome and Support Center or if applicable the York University Student Accessibility Services 
+      &&& If the matter raised is related to Section 2.0 of this policy, the member may report the issue to the Vice-President Communications.
+        &&&& When there is an issue raised to the Vice-President Communications, the Vice-President Communications must notify the EDI Chair and work to solve the issue. Possible actions that can be taken are listed below:
+            &&&&& Resolve the problem internally within the Engineering Society; or
+            &&&&& Resolve the problem using Engineering Society funds.
+            &&&&& Report the issue to Accessibility Services in the Student Welcome and Support Center or if applicable the York University Student Accessibility Services
+    &&& If the matter raised is related to Section 4.2 and 4.3 of this policy, the member may report the issue to the Vice-President External.
+        &&&& When there is an issue raised to the Vice-President External, the Vice-President External must notify the EDI Chair and External Committee, and work to solve the issue. Possible actions that can be taken are listed below:
+            &&&&& Resolve the problem internally within the Engineering Society; or
+            &&&&& Resolve the problem using Engineering Society funds.
+    &&& The Vice-President Student Life must report to the Board of Directors about any accessibility issues that were reported to them and the progress of their solutions during the year. This report must be presented to the Board of Directors by or in the regular March meeting of the Board of Directors.
+        &&&& Regarding Section 4.2 of this policy, the Vice-President External must report to the Board of Directors regarding about any issues regarding this section. This report must be presented to the Board of Directors by or in the regular March meeting of the Board of Directors.
+        &&&& Regarding Section 2.0 of this policy, the Vice-President Communications must report to the Board of Directors regarding about any issues regarding this section. This report must be presented to the Board of Directors by or in the regular March meeting of the Board of Directors.
+\end{easylist}
+
+\clearpage
+\end{document}

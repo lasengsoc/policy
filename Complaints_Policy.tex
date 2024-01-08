@@ -1,0 +1,171 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{Complaints Policy}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Section\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{Complaints Policy} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Complaints Policy
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: November 16, 2023
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding the Complaints Policy, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start1=0)
+\begin{easylist}
+&& Purpose
+    &&& The purpose of the Lassonde Engineering Society Complaints Policy is to establish formalized procedures intended to ensure that all internal and external complaints are handled in a fair and consistent manner.
+&& Regulation
+    &&& It is a requirement under the York University Regulation Regarding Student Organizations, Schedule C that student organizations must adopt and publish on their website or other digital location a detailed and accessible internal process for addressing complaints about any aspect of their organization and its activity.
+&& Application
+    &&& This policy applies to any member within the Society
+    &&& Complaints to which this policy applies include the misconduct of any member and member that holds a position within the Society.
+       &&&& This policy defines an act of misconduct as any offense outlined in the York University Code of Student Rights \& Responsibilities - Community Standards for Student Conduct on Campus, as interpreted by the investigator of the case appointed by the Society. 
+\end{easylist}
+
+\section{Submission of Complaints}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& Process
+	&&& All complaints should be submitted to the Ombudsperson, except a complaint against the Ombudsperson, which should be directed to the Speaker.
+        &&&& If any person holding any office of the Society receives a formal complaint, they must refer the complainant to the Ombudsperson or Speaker, as outlined in Section 2.0.1 respectively, to pursue an investigation.
+	&&& In the absence or unavailability of the Ombudsperson, the Speaker shall carry out all of their functions.
+    &&& Complaints may be submitted in person or by mail to the Society’s registered address, or by email to the appropriate person (as outlined in Section 2.0.1).
+&& Submission
+    &&& A complaint will be considered complete if it contains the following:
+        &&&&  The approximate date or a timeline of the alleged actions or events;
+        &&&& The name(s) and position(s) of the subject(s) of the complaint; and
+        &&&& Sufficient detail for a reasonable person, with full access to the Society’s documents, to ascertain the factual accuracy of the allegation.
+    &&& Complaints may be submitted anonymously, so long as the identity of the complainant is not germane to the complaint itself.
+        &&&& If an anonymous complaint is submitted and found to be incomplete, the complaint will not be investigated.
+\end{easylist}
+
+\section{Investigation}
+\begin{easylist}
+\ListProperties(Start3=0)
+&& Process
+	&&& Complaints sent to the Ombudsperson and Speaker will be sent to the relevant personnel immediately for investigation as follows:
+		&&&& If the complaint concerns the conduct of any members of the Board of Directors (excluding the Speaker), Officers, or Ombudsperson, the Speaker will investigate the complaint as the investigator
+        &&&& If the complaint concerns the conduct of any other persons, the Ombudsperson will investigate the complaint as the investigator.
+    &&& The complaint must be immediately acknowledged by the investigator to the complainant upon receipt
+        &&&& If there is no means of communication with the complainant, the investigator will continue without notifying the complainant.
+	&&& Within 7 days, the investigator shall advise the complainant on whether the complaint submitted is complete.
+        &&&& If the complaint is deemed incomplete, the complaint will not be investigated. To pursue the complaint, the complainant will need to submit a new, complete complaint.
+        &&&& If the complaint is deemed complete, the status of the complaint will move to open.
+        &&&& A complete, acknowledged complaint can take on one of four status:
+            &&&&& Open (when an complaint’s investigation is in progress).
+            &&&&& Closed (when the complaint’s investigation is completed by the investigator).
+            &&&&& Withdrawn (when a complaint has been withdrawn by the complainant).
+            &&&&& Appealed (when a complainant is in the process of appealing their case).
+    &&& Upon notifying a complainant of the receipt of a complete complaint, the investigator shall immediately take steps to ascertain whether the complaint has merit under Section 1 of this policy.
+        &&&& The investigator will judge and mark down the validity and relevance of each document related to the complaint.
+        &&&& The investigator must reach out to all possible relevant parties in the complaint and offer them accessible channels of communication to the investigator throughout the investigation.
+        &&&& All persons holding any office of the Society shall cooperate in the investigation of complaints to the fullest extent that is reasonably possible.
+        &&&& The investigator must respond to the complainant within 21 days of acknowledging the complaint with an outcome or a notification for an defined time extension to the investigation period.
+    &&& At any point during the investigation of a complaint, the complainant can choose to withdraw their complaint by notifying the investigator.
+        &&&& If the complainant decides to withdraw their complaint, the associated investigation will be considered withdrawn immediately and the investigator will take no further action.
+\end{easylist}
+
+\section{Response and Outcomes}
+\begin{easylist}
+\ListProperties(Start4=0)
+&& Response
+    &&& The investigator will respond to the complainant with a response in writing to acknowledge the close of the investigation.
+        &&&& If the investigator finds that the complaint is valid, the response must include recommended outcomes regarding the subject of the complaint.
+        &&&& The investigator will proceed to execute any recommended outcomes immediately following the close of the investigation.
+    &&& The response to the complaint shall clearly state why the investigator found or did not find merit to the complaint and include any supplementary information used in the determination of such.
+    &&& The recommended outcomes for the complaint shall match the verdict and severity of the response.
+        &&&& The possible recommended outcomes are:
+            &&&&& Recall from the position;
+            &&&&& Mandate additional training;
+            &&&&& Send an official apology;
+            &&&&& Give official warning from overseeing body;
+            &&&&& Escalate to the Student Welcome and Support Center;
+            &&&&& Escalate to campus security;
+            &&&&& Escalate to law enforcement; or
+            &&&&& Other (outcomes and reasoning must be specified by the investigator).
+    &&& All recommended outcomes will be presented to the overseeing body of the subject of the complaint, who may chose to execute the recommended outcome, amend and execute the recommended outcomes, or decline the recommended outcome.
+        &&&& For complaints concerning the conduct of Directors, and Standing Committee members as specified in Bylaw 4, recommended outcomes will be presented to the Board of Directors in camera.
+        &&&& Notwithstanding Section 4.1.5, with complaints concerning the conduct of members of the Board of Directors or Officers, recommended outcomes will be presented at a General Meeting.
+            &&&&& The investigator may forgo the requirement to present their findings at a General Meeting by a two-thirds majority vote of the Board of Directors. If significant personal or sensitive information is involved, the case must be presented in camera at  Board of Directors meeting.
+    &&& Responses and recommended outcomes to complaints shall be kept confidential unless confidentiality is waived by the complainant.
+        &&&& If documents related to the complaint are being shown to a party external to the investigator, all personal information shall be redacted.
+        &&&& All complaints and related documents will be archived by the Ombudsperson, for the possibility of reopening a withdrawn case or for the use of reference as a precedent.
+\end{easylist}
+
+\section{Appeal}
+\begin{easylist}
+\ListProperties(Start5=0)
+&& Process
+    &&&  If a recommended outcome was dispositioned by the Board of Directors, the complainant may appeal the ruling by calling a General Meeting (as outlined in Bylaw 1, Section 2.1.2)
+        &&&&  A majority of Members present at the General Meeting can overturn the decision rendered by the Board of Directors.
+    &&&  If a recommended outcome was dispositioned by a General Meeting, there shall be no further appeal.
+\end{easylist}
+
+\clearpage
+\end{document}
