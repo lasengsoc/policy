@@ -1,0 +1,245 @@
+%Use XeLatex to compile
+
+\documentclass[10pt]{article}
+
+% PACKAGES 
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+\usepackage{setspace}
+
+% FILE INFO
+\title{External Policy}
+\author{Lassonde Engineering Society}
+\date{}
+\onehalfspacing
+
+% TITLING FORMATTING
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Section\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{0}
+
+%HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\rhead{
+	\textbf{Lassonde Engineering Society} \\
+	\textbf{External Policy} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+ 
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	External Policy
+ 
+	Lassonde Engineering Society
+	}
+ 
+\vspace{5mm}
+\includegraphics[scale=0.15]{Sledge T.png}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: TBD
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+
+% TOC BEGIN
+\pagenumbering{gobble}
+\tableofcontents\let\thefootnote\relax\footnote{{If you have any questions regarding the External Policy, please contact the Speaker at speaker@lasengsoc.com.}}
+\clearpage
+
+% Setting numbering.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header height consistency.
+\ListProperties(Start1=0)
+\begin{easylist}
+
+&& Purpose
+    &&& The purpose of this document is to formalize procedures for conducting external activities and to regulate matters related to selection of delegates. 
+&& Definitions
+    &&& In this document:
+        &&&& "Activity" refer to any form of external event, conference or gathering that the LES may attend;
+        &&&& "Head Delegate" refers to a member that is the Vice-President External or a selected attending delegate;
+        &&&& "Delegate" refers to a member that is selected by the External Committee to represent Lassonde at external activities;
+        &&&& "ESSCO" refers to the Engineering Students Societies' Council of Ontario; and
+        &&&& "CFES" refers to the Canadian Federation of Engineering Students.
+&& Interpretation
+    &&& All external activity fees will be regulated by the Section 4 of the Accessibility Policy
+        &&&& The Vice-President External shall be waived of all ESSCO and CFES activity fees.
+    &&& As per Bylaw 1, all LES Bylaws shall have precedence over this policy.
+&& Oversight by the External Committee
+    &&& The External Committee is responsible for overseeing the business described in this policy. The ultimate responsibility for the implementation of these policies will rest with the Vice-President External. 
+
+\end{easylist}
+
+\section{Activities}
+\begin{easylist}
+\ListProperties(Start2=0)
+
+&& General
+    &&& This section shall apply to all ESSCO and CFES activites
+    &&& Other activities and their regulations shall be determined by the External Committee.
+&& ESSCO Conferences
+    &&& The following conferences shall be categorized as ESSCO activities:
+        &&&& President's Meeting (EPM);
+        &&&& Professional Engineers of Ontario - Student Conference (PEO-SC);
+        &&&& First-Year Integration Conference (FYIC);
+        &&&& Ontario Engineering Competition (OEC); and
+        &&&& Conference on Advocacy and Leadership in Engineering (CALE). 
+&& CFES Conferences
+    &&& The following conferences shall be categorized as CFES activities:
+        &&&& President's Meeting (CPM);
+        &&&& Conference on Diversity in Engineering (CDE);
+        &&&& Canadian Engineering Leadership Conference (CELC);
+        &&&& Conference on Sustainability in Engineering (CSE); and
+        &&&& Canadian Engineering Competition (CEC).
+&& Delegate Caps
+    &&& There shall be a cap placed on the number of delegates selected for each activity 
+        &&&& The cap shall be determined by the following characteristics:
+            &&&&& Activity; and
+            &&&&& Location
+        &&&& The cap amount includes the Head Delegate.
+    &&& The External Committee shall when determining the cap of ESSCO activities, administer the following model:
+        &&&& The base Delegate cap for ESSCO activities shall be the following:
+            &&&&& three (3) for ESSCO PM;
+            &&&&& six (6) for PEO-SC;
+            &&&&& six (6) for FYIC; and
+            &&&&& six (6) for CALE.
+        &&&& Locations of ESSCO activities shall have the following effect to the Delegate caps outlined in the linked \href{https://docs.google.com/spreadsheets/d/158iaU73LOLD9usR5hfxdq-7lGpuc4AP9S1A_DSWaLgQ/edit?usp=sharing}{Delegate Cap Table}.
+            &&&&& The Delegate Cap Table shall have no effect on Section 2.3.2.(a)(i) and (iv).
+     &&& The External Committee shall when determining the cap of CFES activities, administer the following model:
+        &&&& For CFES activities
+            &&&&& CPM shall have a Delegate cap of three (3);
+            &&&&& CDE shall have a Delegate cap of five (5);
+            &&&&& CELC shall have a Delegate cap of five (5);
+            &&&&& CSE shall have a Delegate cap of five (5);
+        &&&& Locations of CFES activities shall have the following effect to the Delegate caps outlined in the linked \href{https://docs.google.com/spreadsheets/d/158iaU73LOLD9usR5hfxdq-7lGpuc4AP9S1A_DSWaLgQ/edit?usp=sharing}{Delegate Cap Table}.
+            &&&&& The Delegate Cap Table shall have no effect on Section 2.3.3.(a)(i).
+    &&& The External Committee shall set the cap no higher than amounts determined by the model in Section 2.3.2 no later than 3 months before the first day of the activity in question.
+        &&&& The cap shall be set by a two-thirds vote of the External Committee.
+\end{easylist}
+
+\section{Selection}
+\begin{easylist}
+\ListProperties(Start3=0)
+
+&& General
+    &&& The External Committee and its members shall be responsible for administering this chapter.
+    &&& If a member of the External Committee is applying for any activity, they shall be required to recuse themselves from the selection process.
+&& Process 
+    &&& There shall be two rounds of selection consisting of:
+        &&&& An application form; and 
+        &&&& interviews.
+    &&& The scores of the each round of selection shall be weighted as follows:
+        &&&& forty percent (40\%) for the application form; and
+        &&&& sixty percent (60\%) for the interview.
+&& Scoring
+    &&& The scoring process for each round shall be carried out as follows:
+        &&&& The application forms of each candidate shall be ranked on a scale of 1 - nth applications, with 1 being the best score.
+        &&&& The interviews of each candidate shall be ranked on a scale of 1 - nth applications, with 1 being the best score.
+        &&&& The candidates shall be selected in ascending order of their given scores.
+        &&&& In the case of a tie for the last available slot for a given conference, the candidate with the lower interview score shall be selected.
+    &&& No duplicate scores shall be given by the committee in the scoring process.
+    &&& Candidates who show up late to an interview gain an additional point. 
+    &&& Candidates who miss their scheduled interview with no valid reason as determined by the External Committee will lose their privilege to be a delegate for that given activity.
+	
+\end{easylist}
+
+\section{Delegates}
+\begin{easylist}
+\ListProperties(Start4=0)
+
+&& General Responsibilities
+    &&& All delegates shall be responsible for the following:
+        &&&& Taking relevant notes of each sessions that they attend;
+        &&&& Being present during sessions and discussions; and
+        &&&& Networking with other fellow engineering student peers.
+&& Head Delegate 
+    &&& The head delegate shall be responsible for the delegation and a given activity.
+    &&& The head delegate shall also oversee:
+        &&&& scheduling delegates to ensure representation at all activity sessions;
+        &&&& maintaining an attendance list; and 
+        &&&& holding a daily check-in meeting with the delegates as necessary.
+&& Conduct
+    &&& A delegate shall adhere to the following commitments:
+        &&&& value other people's experiences;
+        &&&& embody a spirit of respect and fellowship;
+        &&&& maintain respectful communication regardless of disagreements;
+        &&&& have an open mind for new ideas and information;
+        &&&& refrain from behaving in a manner that degrades, insults, or otherwise negatively affects others;
+        &&&& support your peers;
+        &&&& grow and develop professionally, academically, and socially; and
+        &&&& respect other people's privacy and adhere to a respectful rooming etiquette.
+    &&& A delegate shall attend a minimum of 70\% of all scheduled session time slots, as determined by the External Committee, excluding sessions after 6pm.
+    &&& A delegate shall adhere to the York University Code of Student Rights and Responsibilities.
+    
+\end{easylist}
+
+\section{Documentation}
+\begin{easylist}
+\ListProperties(Start5=0)
+&& General
+    &&& All External Committee applications, conference information, planning documents and other relevant documentation are required to be stored on the Society's Google Workspace. 
+&& Applications \& Interviews
+    &&& Interview and application documentation shall be only made public outside of the External Committee after the given conference has ended.
+    &&& All interviews shall be required to have minutes recorded.
+    
+\end{easylist}
+
+\section{Lists}
+\begin{easylist}
+\ListProperties(Start6=0)
+&& General
+    &&& Lists shall be kept by the External Committee, regarding delinquent candidates.
+    &&& The External Committee shall reserve the authority to determine members who qualify for lists.
+&& Grey List
+    &&& A "grey list" shall be kept of candidates that require further consideration from the External Committee based on the following conduct:
+        &&&& not adhering to Section 4 provisions; or
+        &&&& as determined by the External Committee.
+    &&& The External Committee shall sentence a candidate to the grey list by a two-thirds (2/3) majority vote.
+&& Black List
+    &&& A "black list" shall be kept of candidates that are barred from attending activities, based on the following conduct:
+        &&&& not adhering to Section 4 provisions;
+        &&&& breaking the law;
+        &&&& violent or aggressive behaviour;
+        &&&& racist or sexist behaviour;
+        &&&& blatant discriminatory acts; or
+        &&&& as determined by the External Committee.
+    &&& The External Committee shall sentence a candidate to the black list by a two-thirds (2/3) majority vote. 
+    &&& A member on the "black list" may appeal their position to be moved to the grey list, through a two-thirds (2/3) vote of the Board of Directors.
+        &&&& The appellant is only permitted one appeal.
+&& Documentation
+    &&& The Grey and Black list shall be kept in a manner such that only the names of the candidates are visible to the membership.
+        &&&& Offenses and other notes kept on the candidates shall only be accessed by the Vice-President External, after sentencing 
+    &&& Members on the Grey and Black List, as defined in Section 6.2 \& 3 who have been on the list for a period of 5 years shall be removed from the list.
+\end{easylist}
+
+\clearpage
+\end{document}
+
+
